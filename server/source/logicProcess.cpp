@@ -326,6 +326,9 @@ logicProcess::requestStatus logicProcess::readAnalysis()
 	return m_readStatus;
 }
 
+/// <summary>
+/// 完成登录逻辑
+/// </summary>
 void logicProcess::login()
 {
 	// 登录首先获取数据库的账号信息 核对是否有该账号
